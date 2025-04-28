@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+#clickButton {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+#clickButton:hover {
+    background-color:springgreen;
+    color: navy;
+}
+
+#counter, #highestScore, #timeLeft {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
